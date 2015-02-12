@@ -1,0 +1,241 @@
+/***********************
+      TYPOGRAPHY
+************************/
+h1 {
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+
+h2 {
+	color: #5f5d60;
+}
+
+p.lead {
+	font-weight: lighter;
+	margin-bottom: 50px;
+	
+}
+p:nth-of-type(2){
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-size: initial;
+	
+}
+.navbar-text {
+	font-weight: bold;
+	margin-right: 0;
+}
+
+.navbar-brand {
+	font-family: 'Lobster Two', cursive;
+	font-size: 2em;
+	color: #fff !important;
+}
+
+li >a:hover {
+	color: #fff !important;
+}
+
+
+
+/***********************
+      LOGO STYLES
+************************/
+/*.main-logo {
+	background-image: url('../img/main-logo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100px;
+	height: 30px;
+	margin-top: 22px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}*/
+/***********************
+      JUMBOTRON STYLES
+************************/
+.jumbotron {
+	padding: 200px 0 140px 0;
+}
+
+.device {
+	background-image: url('../img/device-hero.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 589px;
+	width: 345px;
+}
+a.btn-default:hover {
+	color: #957bba;
+	background-color: #fff;
+}
+/***********************
+      LAYOUT STYLES
+************************/
+.icon-wrapper {
+	padding-top: 10%;
+}
+
+/*.icon{
+	margin-bottom: 10%;
+}*/
+.icon-text{
+	color: #6f7c82;
+}
+
+/***********************
+      ICON STYLES
+************************/
+
+.ft-icon{
+	width: 94%;
+	height: 194px;
+	background-image: url('../img/main-bg.png');
+	background-repeat: no-repeat;
+	background-color: #8c73b0;
+	background-size: 100%;
+	position: relative;
+}
+
+.fa::before{
+	font-size: 100px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 102px;
+	width: 15%;
+
+}
+
+.icon-background-first {
+	background-color: #f5f7f9;
+	padding-top: 20px;
+	border-top: 1px solid #e9edf1;
+	margin-top: -30px;
+}
+
+.icon-background-second {
+	background-color: #fff;
+	padding-top: 20px;
+	border-top: 1px solid #e9edf1;
+	margin-top: -30px;
+}
+
+.panel {
+	background-image: url('../img/form-panel-bg.png');
+	background-repeat: no-repeat;
+	margin: 80px 0 132px 0;
+	padding-top: 42px;
+}
+
+.panel-row {
+	margin-bottom: 5%;
+}
+
+.phone-txt { padding: 24px 12px; width: 90%; position: relative; }
+
+.btn-submit { color: inherit; font-size: 1.6em; background: transparent; position: absolute; right: 55px; bottom: 3px; }
+
+/***********************
+  CAROUSEL-COPY STYLES
+************************/
+.carousel-copy {
+	padding: 4% 0;
+	margin-bottom: 20px;
+}
+
+/***********************
+      CAROUSEL STYLES
+************************/
+.tokyo,
+.beirut,
+.europe,
+.jordan {
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tokyo {
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('../img/tokyo-two.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.beirut {
+	background-image: url('../img/beirut.jpg');
+}
+.europe {
+	background-image: url('../img/europe.jpg');
+}
+.jordan {
+	background: linear-gradient(
+		rgba(0,0,0,0.2),
+		rgba(0,0,0,0.2)
+	),
+	url('../img/wadirum.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.item h2 {
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 8em;
+	color: #fff;
+}
+
+.fa-play-circle::before {
+	top: 250px;
+	right: -110px;
+	color: rgba(255,255,255,0.7);
+	cursor: pointer;
+}
+
+/***********************
+GLOBALY COMMUNITY-COPY STYLES
+************************/
+.community-copy {
+	padding: 5% 0;
+}
+
+.background-panel {
+	background: radial-gradient(#eeeeee,#8c73b0);
+	padding-top: 20px;
+	border-top: 1px solid #e9edf1;
+	margin-top: 5%;
+}
+div.background-panel>h2{
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-family: 'Lobster Two', cursive;
+}
+/***********************
+     FOOTER STYLES
+************************/
+footer {
+	padding: 2% 0;
+}
+li.heading {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.link-list {
+	list-style: none;
+}
+.main-footer a {
+	color: #2f3238;
+}
+#treehouse {
+	color: #76b900;
+}
